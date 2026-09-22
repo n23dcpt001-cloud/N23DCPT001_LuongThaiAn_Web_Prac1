@@ -32,7 +32,7 @@ export default async function BlogDetail({ params }) {
           {post.title}
         </h1>
 
-        <p className="mt-6 leading-7 text-gray-600">
+        <p className="mt-6 whitespace-pre-line leading-7 text-gray-600">
           {post.body}
         </p>
       </article>
